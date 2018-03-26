@@ -1,0 +1,274 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://demos.artbees.net/jupiter5
+Description:    Child theme for the Jupiter theme
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Text Domain: mk_framework
+Domain Path: /languages/
+*/
+
+
+
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
+
+$cor-primaria: #9e8543;
+$cor-primaria-fundo-preto:#c5a34a;
+$cor-secundaria: #131218;
+$cor-texto: #5d5d5d;
+
+.padding-divisao-top {
+  padding-top: 3.8rem;
+}
+.padding-divisao-bottom{
+    padding-bottom: 3.8rem;
+}
+
+
+.padding-divisao {
+  padding-top: 3.8rem;
+  padding-bottom: 3.8rem;
+}
+
+.box-qualidades {
+  padding: 10%;
+
+}
+
+.box-qualidades h2{
+  color: $cor-primaria-fundo-preto !important;
+  font-size: 1.6rem;
+  letter-spacing: 0.7rem;
+  margin-bottom: 0
+}
+
+.box-qualidades h1 {
+  color: white !important;
+  font-size: 2.8rem !important;
+}
+
+.box-qualidades p {
+color: white;
+}
+
+.form-home input, .form-home textarea  {
+  border-color: #9e9e9e;
+  width: 100% !important;
+  background-color: inherit;
+}
+
+.form-home textarea {
+  height: 165px;
+}
+
+
+::-webkit-input-placeholder {
+   color:$cor-primaria;
+
+}
+
+:-moz-placeholder {
+    color:$cor-primaria;
+
+}
+
+::-moz-placeholder {
+   color:$cor-primaria;
+
+}
+
+:-ms-input-placeholder {
+   color:$cor-primaria;
+
+}
+
+.btn-enviar {
+  text-align: center;
+  clear: both;
+  padding-top: 3rem;
+}
+
+.margem-categoria {
+  margin: 10px;
+}
+
+.box-categoria {
+  border: 8px solid white;
+}
+
+.texto-categorias p {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+
+.header-toolbar-contact strong {
+  color: $cor-primaria;
+}
+
+.mk-blog-newspaper-item .blog-item-holder {
+    border: none !important;
+
+}
+
+.blog-home time a {
+  display: inline-block;
+  background-color: $cor-secundaria;
+  padding: 2%;
+  font-size: 10px;
+  font-style: normal !important;
+  color: $cor-primaria-fundo-preto !important;
+}
+
+.blog-home p {
+  font-size: 1rem !important;
+}
+
+.blog-home  h3 a {
+  color: $cor-primaria;
+  font-weight: 700;;
+}
+
+.blog-home  h3 a:hover {
+  color: $cor-secundaria;
+}
+
+.blog-home .mk-blog-newspaper-item .mk-readmore {
+  text-transform: uppercase !important;
+  border-bottom: 2px solid $cor-primaria;
+  color: $cor-primaria;
+}
+
+.blog-home .mk-blog-newspaper-item .mk-readmore  svg {
+  display:none;
+}
+
+.blog-home .mk-blog-newspaper-item .newspaper-item-footer {
+  background-color:inherit !important;
+}
+
+.btn-blog a, .btn-enviar input {
+
+  border: none !important;
+  border-bottom: 3px solid $cor-primaria !important;
+  padding: 0;
+}
+
+.btn-enviar input {
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+
+.btn-blog a:hover {
+  background-color: white !important;
+
+}
+
+.btn-blog a {
+  color: $cor-primaria-fundo-preto !important;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.fullwidth-footer .mk-footer-copyright {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 ;
+}
+
+#media_image-2 {
+  text-align: center;;
+
+}
+
+.btn-blog {
+  margin-top: 20px;
+}
+
+.mk-footer-copyright {
+  font-size: 0.8rem;
+}
+
+.mk-footer-copyright a {
+  color:  $cor-primaria-fundo-preto !important;
+}
+
+.mk-footer-copyright a:hover{
+  color: white !important;
+}
+
+.mk-header-bg  {
+ border-bottom:  3px solid $cor-primaria;
+}
+
+.pg-blog .mk-blog-grid-item .the-title a {
+  color: $cor-primaria !important;
+  font-weight: 700;
+}
+
+.pg-blog .mk-blog-grid-item .the-title a:hover {
+  color: $cor-secundaria !important;
+
+}
+
+#recent_posts-2, #categories-2, #archives-2  {
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mk-author-avatar {
+  display: none;
+}
+
+.mk-author-name {
+  display: none;
+}
+
+.mk-publish-date a{
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.master-holder.blog-style-bold .mk-blog-single {
+  padding-top: 0px !important;
+}
+
+.master-holder.blog-style-bold .single-post-tags a {
+  background-color: white !important;
+  page-break-after: 10px 20px !important;
+  color: $cor-texto !important;
+  border-radius: 0 !important;
+  border: 1px solid $cor-primaria;
+
+}
+
+.master-holder.blog-style-bold .single-post-tags a:hover {
+  color: white !important;
+  background-color: $cor-secundaria !important;
+}
+
+.mk-single-content p {
+  text-align: justify !important;
+}
+
+.mapa-contato .wpb_gmaps_widget .wpb_wrapper {
+  background-color: none !important;
+  padding: 5px !important;
+}
+
+.vc_custom_1510079360925 {
+  background-position-y: top !important;
+}

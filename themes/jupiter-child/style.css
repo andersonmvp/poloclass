@@ -1,0 +1,472 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://demos.artbees.net/jupiter5
+Description:    Child theme for the Jupiter theme
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Text Domain: mk_framework
+Domain Path: /languages/
+*/
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
+.padding-divisao-top {
+  padding-top: 3.8rem;
+}
+
+.padding-divisao-bottom {
+  padding-bottom: 3.8rem;
+}
+
+.padding-divisao {
+  padding-top: 3.8rem;
+  padding-bottom: 3.8rem;
+}
+
+.box-qualidades {
+  padding: 10%;
+}
+
+.box-qualidades h2 {
+  color: #c5a34a !important;
+  font-size: 1.6rem;
+  letter-spacing: 0.7rem;
+  margin-bottom: 0;
+}
+
+.box-qualidades h1 {
+  color: white !important;
+  font-size: 2.8rem !important;
+}
+
+.box-qualidades p {
+  color: white;
+}
+
+.form-home input, .form-home textarea {
+  border-color: #9e9e9e;
+  width: 100% !important;
+  background-color: inherit;
+}
+
+.form-home textarea {
+  height: 165px;
+}
+
+::-webkit-input-placeholder {
+  color: #9e8543;
+}
+
+:-moz-placeholder {
+  color: #9e8543;
+}
+
+::-moz-placeholder {
+  color: #9e8543;
+}
+
+:-ms-input-placeholder {
+  color: #9e8543;
+}
+
+.btn-enviar {
+  text-align: center;
+  clear: both;
+  padding-top: 3rem;
+}
+
+.margem-categoria {
+  margin: 10px;
+}
+
+.box-categoria {
+  border: 8px solid white;
+}
+
+.texto-categorias p {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header-toolbar-contact strong {
+  color: #9e8543;
+}
+
+.mk-blog-newspaper-item .blog-item-holder {
+  border: none !important;
+}
+
+.blog-home time a {
+  display: inline-block;
+  background-color: #131218;
+  padding: 2%;
+  font-size: 10px;
+  font-style: normal !important;
+  color: #c5a34a !important;
+}
+
+.blog-home p {
+  font-size: 1rem !important;
+}
+
+.blog-home h3 a {
+  color: #9e8543;
+  font-weight: 700;
+}
+
+.blog-home h3 a:hover {
+  color: #131218;
+}
+
+.blog-home .mk-blog-newspaper-item .mk-readmore {
+  text-transform: uppercase !important;
+  border-bottom: 2px solid #9e8543;
+  color: #9e8543;
+}
+
+.blog-home .mk-blog-newspaper-item .mk-readmore svg {
+  display: none;
+}
+
+.blog-home .mk-blog-newspaper-item .newspaper-item-footer {
+  background-color: inherit !important;
+}
+
+.btn-blog a, .btn-enviar input {
+  border: none !important;
+  border-bottom: 3px solid #9e8543 !important;
+  padding: 0;
+}
+
+.btn-enviar input {
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+.btn-blog a:hover {
+  background-color: white !important;
+}
+
+.btn-blog a {
+  color: #c5a34a !important;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.fullwidth-footer .mk-footer-copyright {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#media_image-2 {
+  text-align: center;
+}
+
+.btn-blog {
+  margin-top: 20px;
+}
+
+.mk-footer-copyright {
+  font-size: 0.8rem;
+}
+
+.mk-footer-copyright a {
+  color: #c5a34a !important;
+}
+
+.mk-footer-copyright a:hover {
+  color: white !important;
+}
+
+.mk-header-bg {
+  border-bottom: 3px solid #9e8543;
+}
+
+.pg-blog .mk-blog-grid-item .the-title a {
+  color: #9e8543 !important;
+  font-weight: 700;
+}
+
+.pg-blog .mk-blog-grid-item .the-title a:hover {
+  color: #131218 !important;
+}
+
+#recent_posts-2, #categories-2, #archives-2 {
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mk-author-avatar {
+  display: none;
+}
+
+.mk-author-name {
+  display: none;
+}
+
+.mk-publish-date a {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.master-holder.blog-style-bold .mk-blog-single {
+  padding-top: 0px !important;
+}
+
+.master-holder.blog-style-bold .single-post-tags a {
+  background-color: white !important;
+  page-break-after: 10px 20px !important;
+  color: #5d5d5d !important;
+  border-radius: 0 !important;
+  border: 1px solid #9e8543;
+}
+
+.master-holder.blog-style-bold .single-post-tags a:hover {
+  color: white !important;
+  background-color: #131218 !important;
+}
+
+.mk-single-content p {
+  text-align: justify !important;
+}
+
+.mapa-contato .wpb_gmaps_widget .wpb_wrapper {
+  background-color: none !important;
+  padding: 5px !important;
+}
+
+.vc_custom_1510079360925 {
+  background-position-y: top !important;
+}
+
+.mk-header-nav-container {
+  background-color: initial !important;
+}
+
+
+
+/* CONFIGURAÇÕES DO BLOG*/
+
+.blog-arquivo .mk-blog-grid-item .blog-grid-footer {
+  border-top: none;
+  margin-bottom: 1rem;
+}
+
+.blog-arquivo .blog-grid-footer a{
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #9e8543;
+  padding: 0.2rem 0.3rem;
+}
+
+.blog-arquivo .blog-grid-footer a:hover{
+  color:white !important;
+  background: black;
+}
+
+.blog-arquivo .blog-grid-footer a svg {
+  display: none;
+}
+
+.blog-arquivo .mk-love-holder {
+  display: none;
+}
+
+.blog-arquivo .mk-blog-meta {
+  padding-bottom:0;
+}
+
+.blog-arquivo .mk-blog-meta .the-excerpt p {
+  margin-bottom:0;
+  font-size: 14px;
+}
+
+.blog-arquivo .pg-blog .mk-blog-grid-item .the-title a {
+  font-family: Abril Fatface;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+
+.widgettitle {
+  font-family: Abril Fatface;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+/* CONFIGURANDO O TEXTO DO BLOG */
+
+.master-holder .mk-blog-single h3 {
+  text-transform: uppercase;
+  color: #131218;
+}
+
+.mk-blog-single em {
+  color:#9e8543 !important;
+  
+}
+
+.product-title a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black !important;
+  letter-spacing: 0;
+}
+
+.products article:hover .mk-shop-item-detail {
+  background:#9e8543; 
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+
+}
+
+.products article:hover .mk-shop-item-detail .product-title a {
+  color:white !important;
+  -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.single-product .summary .product_title {
+  font-weight: 400;
+  font-size: 2rem !important;
+}
+
+/* BOTAO VEJA COMO COMPRAR QUE ESTA NA PAGINDA SINGLE PRODUCT */
+.btn-fale {
+  display: inline-block;
+  border: 3px solid #9e8543;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #9e8543
+}
+
+.btn-fale:hover {
+  color:white;
+  background: black;
+  border-color: black;
+}
+
+/* COMPARTILHAR PEÇA */
+
+.social-share ul li a:hover {
+  border-color:#9e8543;
+}
+
+.social-share ul li a:hover svg {
+  fill:#9e8543;
+}
+
+/* PRODUTOS RELACIONADOS */
+
+.related.products h2 {
+  font-size: 2rem !important;
+}
+
+/*COMPRA PRA COMENTÁRIOS*/
+
+.woocommerce-Reviews #review_form_wrapper .comment-reply-title {
+  font-size: 1.2rem;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.box-marcas-pg {
+  border-bottom: 1px solid #5d5d5d;
+  margin-bottom: 2rem;
+}
+
+.box-categoria a {
+  color:white;
+}
+
+.box-categoria a:hover {
+  color: #9e8543;
+}
+
+/*DESABILITAR TODOS OS PRODUTOS*/
+#mk-archive-products > .mk-woocommerce-shop-loop__title {
+  display: none;
+}
+
+#mk-archive-products > .woocommerce-ordering {
+  display:none;
+}
+
+.woocommerce-result-count {
+  font-size: 1rem;
+}
+
+.responsivo-produtos {
+  display: none;
+  
+}
+.desktop-produtos {
+  display: block;
+}
+
+.mk-footer-copyright {
+  display: inline-block;
+}
+
+.rodape-contato a {
+  color: black !important;
+}
+.rodape-contato a:hover { 
+  color: #9e8543 !important;
+}
+
+
+/* TEXT DE VALIDAÇÃO */
+
+div.wpcf7-response-output, div.wpcf7-validation-errors { display: none !important; }
+span.wpcf7-not-valid-tip { display: none; }
+input[aria-invalid="true"], select[aria-invalid="true"] { border-color: red; background-color: rgba(153,0,0,0.3); }
+
+@media (max-width: 768px) { 
+
+  .mk-toolbar-holder {
+    text-align: center;
+  }
+  .mk-toolbar-resposnive-icon svg {
+    fill: #9e8543 !important;
+  }
+  .mk-responsive-nav svg {
+    color:#9e8543;
+  }
+  .master-holder h1 {
+    font-size: 35px;
+  }
+
+  .responsivo-produtos {
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .desktop-produtos {
+    display: none;
+  }
+
+  .responsivo-blog {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
